@@ -14,7 +14,7 @@ for (d = 0 ; d < 10; d++)
 printf("%d", d);
 }
 
-print('\n');
+printf('\n');
 
 return (0);
 
