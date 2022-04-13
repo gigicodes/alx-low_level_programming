@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_sign - prints out the sign of a number
- * @n - parameter inputted
+ * @n: parameter inputted
+ *
  * Return: Always 0 (Success/Correct)
  */
 int print_sign(int n)
