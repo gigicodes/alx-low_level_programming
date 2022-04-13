@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * _abs - Computes the absolute value of any integer
- * @n - parameter inputted
+ * @n: parameter inputted
+ *
  * Return: Always 0 (Success)
  */
 int _abs(int n)
