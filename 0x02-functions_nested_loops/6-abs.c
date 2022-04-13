@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * int _abs(int n) - Computes the absolute value of any integer
- *
+ * _abs - Computes the absolute value of any integer
+ * @n - parameter inputted
  * Return: Always 0 (Success)
  */
-
 int _abs(int n)
 {
 if (n < 0)
@@ -16,7 +15,7 @@ else if (n == 0)
 {
 return (0);
 }
-else 
+else
 {
 return (n);
 }
