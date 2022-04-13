@@ -5,7 +5,7 @@
  *
  * Return: Always 0
  */
-void times_table(int n)
+int times_table(int n)
 {
 int a = 0, rep, b;
 if (n < 0 || n > 15)
