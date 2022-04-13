@@ -24,7 +24,7 @@ if (b != 0)
 {
 _putchar (' ');
 _putchar ((c % 10) + '0');
-{
+}
 if (b < 9)
 {
 _putchar(',');
@@ -45,3 +45,4 @@ _putchar (' ');
 _putchar ('\n');
 }
 }
+
