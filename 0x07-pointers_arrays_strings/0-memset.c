@@ -9,32 +9,15 @@
  * Return: dest
  */
 
-
-
 char *_memset(char *s, char b, unsigned int n)
 
-
-
 {
+		unsigned int a;
+		/*Delacring FOR*/
 
-		unsigned int i;
-
-
-
-			/*Delacring FOR*/
-
-			for (i = 0; i < n; i++)
-
-					{
-
-								*(s + i) = b; /*add 1 position s*/
-
-
-
-									} /*END FOR*/
-
-
-
-				return (s);
-
+		for (a = 0; a < n; a++)
+		{
+			*(s + a) = b; /*add 1 position s*/
+		} /*END FOR*/
+		return (s);
 }
